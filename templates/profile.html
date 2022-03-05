@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2 class="title">
+    Welcome, {{ user }}! <br>
+</h2>
+Your have marked {{ score }} from {{ total_score }} or {{ user_percentage }}%
+<br>
+Total: {{ total_done }} / {{ total_score }} or {{ percentage }}%
+{% endblock %}

@@ -1,0 +1,101 @@
+html, body { height: 100%; width: 100%; margin: 0; }
+
+#header {
+    /*background-color: DodgerBlue;*/
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    /*font-style: italic;*/
+    font-weight: bolder;
+}
+
+#footer {
+    /*background-color: DodgerBlue;*/
+    text-align: center;
+    font-size: 14px;
+    /*font-style: italic;*/
+    /*font-weight: bold;*/
+    margin-top: 5px;
+}
+.div #checkbox_view {
+    display:none;
+    text-align: center;
+}
+
+.warnstyle {
+    border: 4px double black; /* Параметры границы */
+    background: #fc3; /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+    font-style: italic;
+}
+
+.mark{
+    width:100px;
+    text-align: center;
+    font-weight:bold;
+    float:right;
+    background-color:#444;
+    color:white;
+    border-radius:3px;
+}
+
+.report_box{
+        background-color:black;
+}
+
+.checkbox_form .webix_el_checkbox{
+    margin-top: 1px !important;
+    background-color:black;
+}
+
+.checkbox_form .webix_el_box{
+    height: 30px !important;
+    line-height: 14px !important;
+}
+
+.checkbox_form .el_group{
+}
+
+.checkbox_form > div {
+    margin-top: 1px !important;
+}
+
+.section {
+    margin-top: 1px !important;
+}
+
+.saved{
+    background-color:#DDFFDD;
+}
+
+.webix_list_item.other  {
+  color: red;
+  background-color:#090678;
+}
+
+/*.webix_list_item {*/
+/*background-color:#eee;*/
+/*}*/
+/*.webix_list_item.webix_selected {*/
+/*background-color:#1995ad;*/
+/*}*/
+
+.blinking_input input{
+-webkit-animation: blinking 1s infinite;
+background:white !important;
+}
+@-webkit-keyframes blinking {
+  0% {
+
+      box-shadow: 0 0 3px transparent;
+  }
+  50% {
+
+      box-shadow: 0 0 10px 3px red;
+  }
+  100% {
+
+      box-shadow: 0 0 3px transparent;
+  }
+}
